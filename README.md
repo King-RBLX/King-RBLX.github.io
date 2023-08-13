@@ -88,9 +88,9 @@
       <a class="project-link" href="combat-system-project.html">View Project</a>
     </div>
     <div class="project">
-      <h2 class="project-heading">NPCs AI Script (PathFinding Service)</h2>
-      <img class="project-image" src="another-project.jpg" alt="Another Project">
-      <p class="project-description">Description of another amazing project you've worked on.</p>
+      <h2 class="project-heading">AI Script (PathFinding Service)</h2>
+      <img class="project-image" src="RobloxScreenShot20230813_210857632.png" alt="Another Project">
+      <p class="project-description">Upgrade your Roblox games with seamless Pathfinding Service. Watch your in-game characters navigate their world intelligently and effortlessly.</p>
       <a class="project-link" href="another-project.html">View Project</a>
     </div>
     <!-- Add more project sections as needed -->
