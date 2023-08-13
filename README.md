@@ -14,7 +14,7 @@
   .container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
   }
 
@@ -40,27 +40,28 @@
     text-align: center;
   }
 
-  .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+  .project {
+    margin-bottom: 30px;
+  }
+
+  .project-heading {
+    font-size: 24px;
     margin-bottom: 10px;
   }
 
-  .content h1 {
-    margin: 0;
-    font-size: 24px;
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
   }
 
-  .content p {
-    margin: 10px 0;
+  .project-description {
     font-size: 16px;
+    margin: 10px 0;
   }
 
-  .example-link {
+  .project-link {
     display: inline-block;
-    margin-top: 15px;
     font-size: 18px;
     text-decoration: none;
     color: #333;
@@ -74,11 +75,19 @@
 <div class="container">
   <img class="background" src="IMG_9247.webp" alt="Blurred Background">
   <div class="content">
-    <img class="profile-pic" src="profile-picture.jpg" alt="Profile Picture">
-    <h1>Your Name</h1>
-    <p>Front-end Developer</p>
-    <p>Hello! I'm a front-end developer passionate about creating user-friendly and visually appealing websites.</p>
-    <a class="example-link" href="example-project.html">View Example Project</a>
+    <div class="project">
+      <h2 class="project-heading">Combat System Project</h2>
+      <img class="project-image" src="combat-system.jpg" alt="Combat System Project">
+      <p class="project-description">A dynamic combat system for a Roblox game that provides an engaging player experience.</p>
+      <a class="project-link" href="combat-system-project.html">View Project</a>
+    </div>
+    <div class="project">
+      <h2 class="project-heading">Another Project</h2>
+      <img class="project-image" src="another-project.jpg" alt="Another Project">
+      <p class="project-description">Description of another amazing project you've worked on.</p>
+      <a class="project-link" href="another-project.html">View Project</a>
+    </div>
+    <!-- Add more project sections as needed -->
   </div>
 </div>
 </body>
