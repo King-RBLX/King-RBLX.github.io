@@ -85,13 +85,13 @@
       <h2 class="project-heading">Combat System Project</h2>
       <img class="project-image" src="maxresdefault.jpg" alt="Combat System Project">
       <p class="project-description">A dynamic combat system for a Roblox game that provides an engaging player experience.</p>
-      <a class="project-link" href="combat-system-project.html">View Project</a>
+      <a class="project-link" href="https://www.roblox.com/games/14423227189/Combat-System" target="_blank">View Project</a>
     </div>
     <div class="project">
       <h2 class="project-heading">AI Script (PathFinding Service)</h2>
       <img class="project-image" src="RobloxScreenShot20230813_210857632.png" alt="Another Project">
       <p class="project-description">Upgrade your Roblox games with seamless Pathfinding Service. Watch your in-game characters navigate their world intelligently and effortlessly.</p>
-      <a class="project-link" href="another-project.html">View Project</a>
+      <a class="project-link" href="another-project.html" target="_blank">View Project</a>
     </div>
     <!-- Add more project sections as needed -->
   </div>
