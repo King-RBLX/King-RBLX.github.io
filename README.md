@@ -59,15 +59,22 @@
     margin: 10px 0;
   }
 
-  .project-link {
-    display: inline-block;
-    font-size: 18px;
-    text-decoration: none;
-    color: #333;
-    border: 1px solid #333;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
+ .project-link {
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #555;
+  color: #fff;
+}
+
 </style>
 </head>
 <body>
