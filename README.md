@@ -52,7 +52,7 @@
 </head>
 <body>
 <div class="container">
-  <img class="background" src="background-image.jpg" alt="Blurred Background">
+  <img class="background" src="IMG_9247.webp" alt="Blurred Background">
   <div class="content">
     <h1>Welcome to Our Website</h1>
     <p>This is an example of a website with a blurred background and a centered content layer. You can replace this text with your own content.</p>
