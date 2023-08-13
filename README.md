@@ -76,7 +76,7 @@
   <div class="content">
     <div class="project">
       <h2 class="project-heading">Combat System Project</h2>
-      <img class="project-image" src="hqdefault.jpg" alt="Combat System Project">
+      <img class="project-image" src="maxresdefault.jpg" alt="Combat System Project">
       <p class="project-description">A dynamic combat system for a Roblox game that provides an engaging player experience.</p>
       <a class="project-link" href="combat-system-project.html">View Project</a>
     </div>
