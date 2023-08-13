@@ -64,14 +64,14 @@
   font-size: 18px;
   text-decoration: none;
   color: #fff;
-  background-color: #333;
+  background-color: #3498db; /* Blue color */
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-link:hover {
-  background-color: #555;
+  background-color: #2980b9; /* Darker blue on hover */
   color: #fff;
 }
 
