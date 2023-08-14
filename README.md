@@ -11,11 +11,11 @@
   }
 
   .container {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    overflow: hidden;
-  }
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
 
   .background {
     position: absolute;
