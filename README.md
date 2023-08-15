@@ -11,14 +11,11 @@
   }
 
   .container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background-image: url("IMG_9247.webp");
-  background-size: cover;
-  background-attachment: fixed; /* Keep the background fixed */
-}
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+  }
 
   .background {
     position: absolute;
@@ -30,27 +27,21 @@
     filter: blur(10px); /* Adjust the blur level as needed */
   }
 
-.content {
-  position: sticky;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  width: 70%; /* Adjust the width as needed */
-  max-height: 90vh; /* Adjust the max-height as needed */
-  overflow-y: auto; /* Enable scrolling if content overflows */
-}
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
 
-.project {
-  margin-bottom: 30px;
-  padding-bottom: 30px; /* Add some padding at the bottom */
-  border-bottom: 1px solid #ccc; /* Add a border at the bottom of each project */
-}
-
+  .project {
+    margin-bottom: 30px;
+  }
 
   .project-heading {
     font-size: 24px;
