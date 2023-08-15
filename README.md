@@ -5,10 +5,12 @@
 <title>Your Portfolio</title>
 <style>
   body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('IMG_9247.webp') no-repeat center center fixed;
+  background-size: cover;
+}
 
   .container {
     position: relative;
@@ -28,21 +30,17 @@
   }
 
   .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* ... rest of your styles ... */
+}
 
-  .project {
-    margin-bottom: 30px;
-  }
-
+.project {
+  margin-bottom: 30px;
+  /* Remove transform: translate(-50%, -50%); */
+}
   .project-heading {
     font-size: 24px;
     margin-bottom: 10px;
