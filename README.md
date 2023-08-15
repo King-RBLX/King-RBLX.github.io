@@ -27,21 +27,22 @@
     filter: blur(10px); /* Adjust the blur level as needed */
   }
 
-  .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0); /* Adjust translation */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
 
-  .project {
-    margin-bottom: 30px;
-  }
+.project {
+  margin: 10px 0;
+}
+
 
   .project-heading {
     font-size: 24px;
