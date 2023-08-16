@@ -103,7 +103,7 @@
       <h2 class="project-heading">Tycoon System</h2>
       <img class="project-image" src="RobloxScreenShot20230816_182750422.png" alt="Another Project">
       <p class="project-description">My Tycoon Portfolio: Tracing my steps towards prosperity!</p>
-      <a class="project-link" href="https://www.roblox.com/games/14429857043/AI-NPCs-Pathfinding-Service" target="_blank">View Project</a>
+      <a class="project-link" href="https://www.roblox.com/games/14455466077/Tycoon-System" target="_blank">View Project</a>
     </div>
 
     
