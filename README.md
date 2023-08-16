@@ -12,11 +12,14 @@
   }
 
   .container {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    overflow: auto;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
 
   .background {
     position: absolute;
@@ -29,20 +32,22 @@
   }
 
   .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 80%; /* Adjust as needed */
+  width: 600px; /* Set a fixed width for better responsiveness */
+}
 
-  .project {
-    margin-bottom: 30px;
-  }
+ .project {
+  margin-bottom: 30px;
+  padding: 20px; /* Add padding to separate projects */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white background */
+}
 
   .project-heading {
     font-size: 24px;
