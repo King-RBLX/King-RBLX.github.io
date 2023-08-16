@@ -101,8 +101,8 @@
     </div>
       <div class="project">
       <h2 class="project-heading">Tycoon System</h2>
-      <img class="project-image" src="RobloxScreenShot20230813_210857632.png" alt="Another Project">
-      <p class="project-description">Upgrade your Roblox games with seamless Pathfinding Service. Watch your in-game characters navigate their world intelligently and effortlessly.</p>
+      <img class="project-image" src="RobloxScreenShot20230816_182750422.png" alt="Another Project">
+      <p class="project-description">My Tycoon Portfolio: Tracing my steps towards prosperity!</p>
       <a class="project-link" href="https://www.roblox.com/games/14429857043/AI-NPCs-Pathfinding-Service" target="_blank">View Project</a>
     </div>
 
